@@ -1,0 +1,14 @@
+let SMD_THEME = {
+  fg_normal: "#666666"
+  fg_active: "#00DD66"
+}
+
+let options = [SMD_THEME.fg_normal, SMD_THEME.fg_active]
+
+let a = 1
+
+vstack
+  text "a: " a 
+  text "options[a]: " options[a] 
+  text "active: " active
+  text "options[active] " options[active]
